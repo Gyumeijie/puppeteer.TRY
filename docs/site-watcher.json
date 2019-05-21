@@ -22,7 +22,7 @@
           "attachment": [{ "path": "./result.png", "type": "image/png", "name": "result.png" }]
         },
         "others": {
-          "from": "yumeijieusername@zju.edu.cn",
+          "from": "username@zju.edu.cn",
           "to": "username@qq.com"
         }
       }
