@@ -1,0 +1,34 @@
+{
+  "name": "@gyumeijie/site-watcher",
+  "version": "1.0.0",
+  "description": "watcher for site changes",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "bin": {
+    "site-watcher": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gyumeijie/site-watcher.git"
+  },
+  "keywords": [
+    "uploader",
+    "pictures",
+    "images",
+    "upload",
+    "github"
+  ],
+  "author": "gyumeijie <18170879819@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gyumeijie/site-watcher/issues"
+  },
+  "homepage": "https://github.com/Gyumeijie/site-watcher#readme",
+  "dependencies": {
+    "emailjs": "^2.2.0",
+    "puppeteer": "^1.16.0"
+  },
+  "devDependencies": {}
+}

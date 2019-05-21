@@ -1,0 +1,31 @@
+{
+  "login": {
+    "username": "username",
+    "password": "password"
+  },
+  "email": {
+    "server": {
+      "user": "username",
+      "password": "password",
+      "host":"smtp.zju.edu.cn",
+      "port":"994"
+    },
+    "emailTypes": {
+      "isAlive": {
+        "from": "username@zju.edu.cn",
+        "to": "username@qq.com"
+      },
+      "result": {
+        "self": {
+          "from": "username@zju.edu.cn",
+          "to": "username@qq.com",
+          "attachment": [{ "path": "./result.png", "type": "image/png", "name": "result.png" }]
+        },
+        "others": {
+          "from": "yumeijieusername@zju.edu.cn",
+          "to": "username@qq.com"
+        }
+      }
+    }
+  }
+}
